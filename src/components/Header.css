@@ -1,0 +1,42 @@
+/* Header.css */
+
+.header {
+    /* Degradado llamativo de azul a violeta */
+    background: linear-gradient(135deg, #4f46e5, #8b5cf6);
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(109, 204, 8, 0.093);
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.header nav {
+    display: flex;
+    gap: 15px;
+}
+
+.header button {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.header button:hover {
+    background: white;
+    color: #4f46e5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
