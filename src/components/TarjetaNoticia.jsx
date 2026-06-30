@@ -1,13 +1,46 @@
-import './TarjetaNoticia.css';
+import '../index.css';
 
-function TarjetaNoticia({ info }) {
+
+function TarjetaNoticia({info}) {
+
+
+    const leerMas = () => {
+
+        alert(
+            `Leyendo noticia:\n\n${info.title}`
+        );
+
+    }
+
+
+
     return (
-        <div className="card">
-            <h3>{info.title}</h3>
-            <p>{info.body}</p>
-            <button>Leer más</button>
-        </div>
+
+        <article className="card">
+
+
+            <h3>
+                {info.title}
+            </h3>
+
+
+            <p>
+                {info.body}
+            </p>
+
+
+
+            <button onClick={leerMas}>
+                Leer más
+            </button>
+
+
+
+        </article>
+
     );
+
 }
+
 
 export default TarjetaNoticia;
