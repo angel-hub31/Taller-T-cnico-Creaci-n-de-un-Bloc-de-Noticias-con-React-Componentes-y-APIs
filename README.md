@@ -1,3 +1,26 @@
+Bloc de Noticias - React + REST API
+Proyecto práctico desarrollado para el taller técnico de integración de servicios en el Frontend, utilizando React, consumo de APIs dinámicas y diseño UI/UX avanzado.
+
+Descripción
+Esta aplicación consume datos de una API REST pública (JSONPlaceholder) para mostrar una lista de 12 noticias de forma dinámica. La interfaz ha sido diseñada para ser moderna, responsiva y funcional.
+
+🛠 Tecnologías Utilizadas
+React (Framework principal)
+
+Vite (Herramienta de compilación)
+
+CSS moderno (CSS Grid, Flexbox, efectos hover y sombras)
+
+Google Fonts (Tipografía Inter)
+
+📋 Características
+Consumo de API: Integración dinámica mediante useEffect y useState.
+
+Componentes Reutilizables: Estructura modular (Header, ListaNoticias, TarjetaNoticia).
+
+Diseño Responsivo: Interfaz adaptativa para móviles y escritorio.
+
+Validación: Evidencia de pruebas de endpoint realizada con Postman.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
